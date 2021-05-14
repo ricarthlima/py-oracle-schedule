@@ -1,0 +1,142 @@
+[
+    {
+        "active": true,
+        "name": "Ecossistemas de Dados",
+        "code": "IF997",
+        "teacher_code": "BERNA",
+        "mandatory": false,
+        "from_cin": true,
+        "danger_rate": 3,
+        "worth_rate": 3,
+        "schedules": {
+            "SEG": [
+                19,
+                21
+            ],
+            "QUA": [
+                17,
+                19
+            ]
+        }
+    },
+    {
+        "active": true,
+        "name": "Auditoria e Segurança de SI",
+        "code": "IF987",
+        "teacher_code": "CARLA",
+        "mandatory": true,
+        "from_cin": true,
+        "danger_rate": 3,
+        "worth_rate": 1,
+        "schedules": {
+            "SEG": [
+                17,
+                19
+            ],
+            "QUI": [
+                19,
+                21
+            ]
+        }
+    },
+    {
+        "active": true,
+        "name": "IUM",
+        "code": "IF1000",
+        "teacher_code": "ALEXS",
+        "mandatory": false,
+        "from_cin": true,
+        "danger_rate": 2,
+        "worth_rate": 4,
+        "schedules": {
+            "TER": [
+                17,
+                19
+            ],
+            "SEX": [
+                19,
+                21
+            ]
+        }
+    },
+    {
+        "active": true,
+        "name": "Empreendimentos em Informática",
+        "code": "IF988",
+        "teacher_code": "PPCRIS",
+        "mandatory": true,
+        "from_cin": true,
+        "danger_rate": 4,
+        "worth_rate": 4,
+        "schedules": {
+            "SEG": [
+                19,
+                21
+            ],
+            "QUA": [
+                19,
+                21
+            ]
+        }
+    },
+    {
+        "active": true,
+        "name": "IA",
+        "code": "IF1017",
+        "teacher_code": "ADRIANO",
+        "mandatory": false,
+        "from_cin": true,
+        "danger_rate": 5,
+        "worth_rate": 4,
+        "schedules": {
+            "SEG": [
+                17,
+                19
+            ],
+            "QUI": [
+                17,
+                19
+            ]
+        }
+    },
+    {
+        "active": true,
+        "name": "Gestão de Portifólio",
+        "code": "IF1019",
+        "teacher_code": "CELIO",
+        "mandatory": false,
+        "from_cin": true,
+        "danger_rate": 2,
+        "worth_rate": 3,
+        "schedules": {
+            "QUA": [
+                17,
+                19
+            ],
+            "SEX": [
+                19,
+                21
+            ]
+        }
+    },
+    {
+        "active": true,
+        "name": "Sistemas Distribuídos",
+        "code": "IF1019",
+        "teacher_code": "KIEV",
+        "mandatory": false,
+        "from_cin": true,
+        "danger_rate": 5,
+        "worth_rate": 3,
+        "schedules": {
+            "TER": [
+                19,
+                21
+            ],
+            "SEX": [
+                17,
+                19
+            ]
+        }
+    }
+]
