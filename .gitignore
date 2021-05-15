@@ -1,3 +1,6 @@
-output/
-output/*
 __pycache__/
+output/2.json
+output/3.json
+output/4.json
+output/5.json
+output/orderned.json
