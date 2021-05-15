@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>O Oráculo dos Horários</title>
+    <link rel="shortcut icon" href="magic-ball.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Esteban&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container container-infos">
+        <img src="magic-ball.png" width="64">
+        <div class="col mt-sm">
+            <h1>O Oráculo dos Horários</h1>
+            <small style="font-size: 0.8em !important;">
+                Sistema para visualização do JSON formatado do
+                <a href="">Oracle Schedule</a>.
+                <br>Visite o GitHub para aprender a gerar o arquivo.
+            </small>
+
+            <div class="df-padding">
+                <hr>
+            </div>
+
+            <h5>Como o Score é calculado?</h5>
+            <small style="font-size: 0.8em !important;">
+                <b>+10 pontos</b> se a cadeira é obrigatória;
+                <b>+5 pontos</b> se a cadeira é do CIn;
+                <b>-[0~5] pontos</b> dependendo da dificuldade da cadeira;
+                <br>
+                <b>+[0~5] pontos</b> o assunto é interessante;
+                <b>+5 pontos</b> se a cadeira é dada por um professor da casa;
+                <br>
+                <b>-[0~5] pontos</b> se o professor é rígido;
+                <b>+[0~5] pontos</b> se o professor tem uma boa didática;
+            </small>
+        </div>
+
+
+    </div>
+    <div class="container container-upload">
+        <div class="row justify-content-center" style="font-size: 0.8em !important;">
+            <div class="col-auto mt-sm">
+                <input type="file" id="file-selector" accept=".json">
+            </div>
+
+            <div class="col-auto mt-sm">
+                <button id="btnSubmit" class="btn btn-primary btn-small"
+                    style="font-size: 0.8em !important;">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <div class="container container-list">
+        <i id="infoToHide">
+            <center>Faça upload do arquivo .json para começar!</center>
+        </i>
+        <div class="row justify-content-center" id="divContent">
+
+        </div>
+    </div>
+
+    <div class="container container-upload">
+        <small><i>Feito por <b>Ricarth Lima</b> com 💖 e JS.</i></small>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

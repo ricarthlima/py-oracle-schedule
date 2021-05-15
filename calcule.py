@@ -96,12 +96,27 @@ def addScorePoints(listAll, listTeachers):
     return listResult
 
 
+def __allInOne(listResult):
+    listFinal = []
+    for combinacao in listResult:
+        for grupo in combinacao:
+            listFinal.append(grupo)
+
+    listFinal.sort(key=__orderByScoreGroup, reverse=True)
+    return listFinal
+
+
 def main():
     listTeachers = __loadTeachers()
     listAll = schedules.getAll()
     listResult = addScorePoints(listAll, listTeachers)
+    listResult = __allInOne(listResult)
     stringfy = json.dumps(listResult)
-    input()
+
+    file = open("output/orderned.json", "w", encoding="utf-8")
+    file.write(stringfy)
+    file.close()
 
 
-main()
+if __name__ == "__main__":
+    main()

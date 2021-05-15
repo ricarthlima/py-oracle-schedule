@@ -1,49 +1,42 @@
 [
     {
         "code": "BERNA",
-        "name": "Bernadette Losco",
         "hardness": 4,
         "didatic": 5,
         "from_cin": true
     },
     {
         "code": "CARLA",
-        "name": "Carla Silva",
         "hardness": 3,
         "didatic": 3,
         "from_cin": true
     },
     {
         "code": "ALEXS",
-        "name": "Alex Sandro Gomes",
         "hardness": 2,
         "didatic": 5,
         "from_cin": true
     },
     {
         "code": "PPCRIS",
-        "name": "Cristiano Araújo",
         "hardness": 5,
         "didatic": 5,
         "from_cin": true
     },
     {
         "code": "ADRIANO",
-        "name": "Adriano Imperador",
         "hardness": null,
         "didatic": null,
         "from_cin": true
     },
     {
         "code": "CELIO",
-        "name": "Célio Andrade",
         "hardness": null,
         "didatic": null,
         "from_cin": false
     },
     {
         "code": "KIEV",
-        "name": "Kiev Gama",
         "hardness": 5,
         "didatic": 3,
         "from_cin": true
